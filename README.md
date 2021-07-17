@@ -3,7 +3,7 @@
 <span style="color: #0504aa">Create by</span> <span style="color: #cc0000">Domenico Cacozza</span> - domenico.cacozza@gmail.com
 
 
-<span style="color: #0504aa">This Python script converts some Nastran format cards to a Calculix format statement.</span>
+<span style="color: #0504aa">This Python code converts some Nastran format cards to a Calculix format statement.</span>
 
 
 <span style="color: #0504aa">Convert the following cards:</span>
