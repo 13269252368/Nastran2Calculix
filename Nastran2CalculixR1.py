@@ -1,3 +1,29 @@
+'''
+Nastran2Calculix
+
+Create by Domenico Cacozza - domenico.cacozza@gmail.com
+
+This Python code converts some Nastran format cards to a Calculix format statement.
+
+Convert the following cards:
+from GRID     to *Node
+from CTRIA3   to S3
+from CQUAD4   to S4R
+from CQUAD8   to S8
+from CHEXA    to C3D8
+from CHEXA20  to C3D20
+from CPENTA   to C3D6
+from CPENTA15 to  C3D15
+from CTET     to  C3D4
+from CTET10   to  C3D10
+
+Instruction to run the code:
+>python Nastran2Calculix.py "Nastran input file"
+
+A file with the same name and extension .inp it will be created in the Nastran file folder.
+'''
+
+
 import mmap
 import time
 import sys
